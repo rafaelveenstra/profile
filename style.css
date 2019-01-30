@@ -1,0 +1,145 @@
+body {
+  background: linear-gradient(#283E51, #4B79A1);
+}
+
+h1 {
+  color: rgba(242, 177, 12, 0.7);
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  font-size: 28px;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(105,105,105);
+  font-size: 20px;
+}
+
+p {
+  color: rgb(155,155,155);
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.me {
+  background-color: rgb(248,248,248);
+  margin: 15px;
+  padding: 20px;
+  border-radius: 5px;
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(242,177,12);
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.me p {
+  text-align: left;
+}
+
+.me img {
+  border-radius: 50%;
+  height: 160px;
+  width: 160px;
+  filter: grayscale(80%);
+  display: inline-block;
+}
+.me img:hover {
+  filter: grayscale(20%);
+}
+
+.social {
+  list-style: none;
+  font-size: 38px;
+  text-align: justify;
+  background-color: rgb(248,248,248);
+  margin: 15px;
+  padding: 20px;
+  border-radius: 5px;
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(155,155,155);
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.social li {
+  display: inline-block;
+  padding: 0 45px;
+}
+
+.social i {
+  color: rgb(155,155,155)
+}
+
+#social1:hover i {
+  color: rgb(65, 65, 65);
+}
+
+#social2:hover i {
+  color: rgb(65, 65, 65);
+}
+
+#social3:hover i {
+  color: rgb(65, 65, 65);
+}
+
+.planes {
+  background-color: rgb(248,248,248);
+  margin: 15px;
+  padding: 20px;
+  border-radius: 5px;
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.planes h2 {
+  margin-bottom: 0px;
+}
+
+.planes img {
+  height: 120px;
+  width: 230px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.3);
+  filter: grayscale(90%);
+}
+
+.planes img:hover {
+  filter: grayscale(10%);
+}
+
+.planes h3 {
+  margin-left: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(105,105,105)
+}
+.planes p {
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 10px;
+  text-align: justify;
+  color: rgb(155,155,155)
+}
+
+#planemargin {
+  padding: 10px 0;
+}
+
+.footer {
+  background-color: rgb(248,248,248);
+  margin: 15px;
+  padding: 20px;
+  border-radius: 5px;
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(105,105,105);
+}
